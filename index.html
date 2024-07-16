@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="shortcut icon" href="assets/ttt-logo-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main-style.css">
+    <link rel="stylesheet" href="styles/anim.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Rubik+Bubbles&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <script type="module" src="main-script.js" async></script>
+</head>
+
+<body>
+    <main>
+        <aside class="winner__info">
+            <p class="x__player">
+                <span id="player__name"></span>
+                <br>
+                <span id="x__counter">0</span>
+            </p>
+            <p class="o__player">Бот
+                <br>
+                <span id="o__counter">0</span>
+            </p>
+        </aside>
+        <section class="game__field">
+            <div class="game__cell gcTL"></div>
+            <div class="game__cell gcTM"></div>
+            <div class="game__cell gcTR"></div>
+            <div class="game__cell gcML"></div>
+            <div class="game__cell gcMM"></div>
+            <div class="game__cell gcMR"></div>
+            <div class="game__cell gcBL"></div>
+            <div class="game__cell gcBM"></div>
+            <div class="game__cell gcBR"></div>
+        </section>
+        <aside class="game__management">
+            <p class="ads text-focus-in">Играем</p>
+            <div class="btn__wrapper">
+                <button class="game__btn reset">Очистить поле</button>
+                <button class="game__btn restart">Обнулить счёт</button>
+            </div>
+        </aside>
+    </main>
+</body>
+
+</html>
